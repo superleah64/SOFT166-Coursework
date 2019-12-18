@@ -725,7 +725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6b80543ad105e42a46075ea8cf72c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 7773354758035488895, guid: 80fdca21138e82e48aaf17d7b27eac7a,
+  bulletPrefab: {fileID: 9090931161662999899, guid: 7c756952b72e6e24494dde65aac9c72c,
     type: 3}
   bulletSpawn: {fileID: 2126459871}
   fireTime: 0.5
@@ -1603,16 +1603,16 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 0.8201374
       objectReference: {fileID: 0}
-    - target: {fileID: -3107776007062332794, guid: 28a89e42643ca7c41b247eb62f623779,
-        type: 3}
-      propertyPath: score
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 7443596574137403556, guid: 28a89e42643ca7c41b247eb62f623779,
         type: 3}
       propertyPath: prefabToSpawn
       value: 
       objectReference: {fileID: 1143863249364582983, guid: f1589efd58f68c542b32a12543416169,
         type: 3}
+    - target: {fileID: -3107776007062332794, guid: 28a89e42643ca7c41b247eb62f623779,
+        type: 3}
+      propertyPath: score
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28a89e42643ca7c41b247eb62f623779, type: 3}
