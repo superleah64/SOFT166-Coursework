@@ -1353,6 +1353,12 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 0.5905207
       objectReference: {fileID: 0}
+    - target: {fileID: 7443596574137403556, guid: 28a89e42643ca7c41b247eb62f623779,
+        type: 3}
+      propertyPath: prefabToSpawn
+      value: 
+      objectReference: {fileID: 1143863249364582983, guid: f1589efd58f68c542b32a12543416169,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28a89e42643ca7c41b247eb62f623779, type: 3}
 --- !u!1 &2100163310
@@ -1571,6 +1577,11 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 668788051}
+    - target: {fileID: 7443596574137403550, guid: 28a89e42643ca7c41b247eb62f623779,
+        type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7443596574137403547, guid: 28a89e42643ca7c41b247eb62f623779,
         type: 3}
       propertyPath: target
@@ -1597,5 +1608,11 @@ PrefabInstance:
       propertyPath: score
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 7443596574137403556, guid: 28a89e42643ca7c41b247eb62f623779,
+        type: 3}
+      propertyPath: prefabToSpawn
+      value: 
+      objectReference: {fileID: 1143863249364582983, guid: f1589efd58f68c542b32a12543416169,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28a89e42643ca7c41b247eb62f623779, type: 3}
