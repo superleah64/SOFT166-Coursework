@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7a9f2a0c1061bb9439ff7e6157223a84
+guid: c5e33084a6edc4644a8bd0471cd7bf68
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -113,9 +113,9 @@ TextureImporter:
       name: Explosion_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 399.875
+        width: 400
         height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -124,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7e23bae5d0f3cd46b135d1bdb3cf524
+      spriteID: 0cbdc31f67dd25a44958e32a4c530fa1
       internalID: 5986030973748356752
       vertices: []
       indices: 
@@ -136,7 +136,7 @@ TextureImporter:
         serializedVersion: 2
         x: 400
         y: 0
-        width: 399.875
+        width: 400
         height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -145,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa33c13f5c3bf7b4ba503bb3bef789d3
+      spriteID: 0133873654eda8e419d3b57199b8ac06
       internalID: -5600206312213581617
       vertices: []
       indices: 
@@ -155,9 +155,9 @@ TextureImporter:
       name: Explosion_2
       rect:
         serializedVersion: 2
-        x: 799
+        x: 800
         y: 0
-        width: 399.875
+        width: 400
         height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -166,7 +166,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8efcfc56e0defd408e98eabadf9aedf
+      spriteID: 5537d1057fe286f48b7ac3878ac58768
       internalID: 3815954189206336483
       vertices: []
       indices: 
@@ -176,9 +176,9 @@ TextureImporter:
       name: Explosion_3
       rect:
         serializedVersion: 2
-        x: 1198
+        x: 1200
         y: 0
-        width: 399.875
+        width: 400
         height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -187,7 +187,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea53b5b4d6e04d740ac045ca887f77b2
+      spriteID: f3c3f2aa6e54c2548ac7992149b0fc73
       internalID: -3690502768834906923
       vertices: []
       indices: 
@@ -197,9 +197,9 @@ TextureImporter:
       name: Explosion_4
       rect:
         serializedVersion: 2
-        x: 1597
+        x: 1600
         y: 0
-        width: 399.875
+        width: 400
         height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -208,7 +208,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c845f59549dfcad4890027e979b1c353
+      spriteID: 3ca7252b073d6724faf82428219c1006
       internalID: -49130668184793455
       vertices: []
       indices: 
@@ -218,9 +218,9 @@ TextureImporter:
       name: Explosion_5
       rect:
         serializedVersion: 2
-        x: 1996
+        x: 2000
         y: 0
-        width: 399.875
+        width: 400
         height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -229,7 +229,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 009c64a4c6865264e9d7dc1899c3fe8b
+      spriteID: a51f4e645e154b64b95ab3adc3cfba44
       internalID: -2330519403281856691
       vertices: []
       indices: 
@@ -239,9 +239,9 @@ TextureImporter:
       name: Explosion_6
       rect:
         serializedVersion: 2
-        x: 2395
+        x: 2400
         y: 0
-        width: 399.875
+        width: 400
         height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -250,7 +250,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec72789653f1d48449cd3295a8f0c90d
+      spriteID: 83bfc3cbb9f6ab04bb7372b7be657784
       internalID: -4796932125324312052
       vertices: []
       indices: 
@@ -260,9 +260,9 @@ TextureImporter:
       name: Explosion_7
       rect:
         serializedVersion: 2
-        x: 2794
+        x: 2800
         y: 0
-        width: 399.875
+        width: 400
         height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -271,7 +271,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e0b143dee434fe41a504c82159cfccd
+      spriteID: 29b7f3207017e2448a7b5b8db8ec5e9c
       internalID: 4348620978117878488
       vertices: []
       indices: 

@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿using UnityEngine;
 public class SmoothLookAtTarget2D : MonoBehaviour
 {
     public Transform target;
@@ -9,7 +6,7 @@ public class SmoothLookAtTarget2D : MonoBehaviour
     public float adjustmentAngle = 0.0f;
     private void Update()
     {
-        if(target != null)
+        if (target != null)
         {
             Vector3 difference = target.position - transform.position;
             float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
@@ -17,8 +14,9 @@ public class SmoothLookAtTarget2D : MonoBehaviour
             transform.rotation = Quaternion.Lerp(transform.rotation, newRot, Time.deltaTime * smoothing);
         }
     }
+
     public void SetTarget(Transform newTarget)
     {
         target = newTarget;
-    }
+    }
 }

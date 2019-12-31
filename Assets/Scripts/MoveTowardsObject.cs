@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿using UnityEngine;
 public class MoveTowardsObject : MonoBehaviour
 {
     public Transform target;
@@ -9,7 +6,7 @@ public class MoveTowardsObject : MonoBehaviour
 
     private void Update()
     {
-        if(target != null)
+        if (target != null)
         {
             transform.position = Vector3.MoveTowards(transform.position, target.position, speed * 0.01f);
         }
@@ -17,5 +14,5 @@ public class MoveTowardsObject : MonoBehaviour
     public void SetTarget(Transform newTarget)
     {
         target = newTarget;
-    }
-}
+    }
+}
