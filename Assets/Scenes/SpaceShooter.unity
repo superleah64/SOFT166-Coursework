@@ -689,12 +689,12 @@ MonoBehaviour:
   onTimerComplete:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5499341056091825273}
-        m_MethodName: 
+      - m_Target: {fileID: 5499341056091825278}
+        m_MethodName: Spawn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -840,17 +840,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b56fdfb300a650d4f9f6edc8ca76bf1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 1
+  time: 3
   repeat: 1
   onTimerComplete:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1741331683}
-        m_MethodName: 
+      - m_Target: {fileID: 969142713}
+        m_MethodName: Spawn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -866,7 +866,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969142712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -8, y: 7.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1337,12 +1337,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: OnDamagedEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
---- !u!1 &1741331683 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6049900605437217273, guid: a96894a428409714ab2305a88713850a,
-    type: 3}
-  m_PrefabInstance: {fileID: 6049900607128147226}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3807703785474002200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1422,12 +1416,18 @@ PrefabInstance:
       objectReference: {fileID: 1636120139}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dd5e25b7f7d74d4fb24157d6c02ba2b, type: 3}
---- !u!1 &5499341056091825273 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8684694794553108833, guid: 5dd5e25b7f7d74d4fb24157d6c02ba2b,
+--- !u!114 &5499341056091825278 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8684694794553108840, guid: 5dd5e25b7f7d74d4fb24157d6c02ba2b,
     type: 3}
   m_PrefabInstance: {fileID: 3807703785474002200}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d011fcae4df32ba419eeccb05a55d9a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6049900607128147226
 PrefabInstance:
   m_ObjectHideFlags: 0
