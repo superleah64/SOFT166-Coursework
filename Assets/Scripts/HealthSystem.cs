@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 
 [System.Serializable]
@@ -13,9 +14,9 @@ public class HealthSystem : MonoBehaviour
     {
         health -= damage;
         onDamaged.Invoke(health);
-        if (health < 1)
+        if (health == 0)
         {
-            onDie.Invoke();
+            SceneManager.LoadScene(2);
         }
     }
 }
