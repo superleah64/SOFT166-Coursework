@@ -13,9 +13,9 @@ public class HealthSystem : MonoBehaviour
     {
         health -= damage;
         onDamaged.Invoke(health);
-        if (health == 0)
+        if (health < 1)
         {
-            SceneManager.LoadScene(2);
+            onDie.Invoke();
         }
     }
 }
