@@ -80,7 +80,7 @@ GameObject:
   - component: {fileID: 8480675486488022692}
   - component: {fileID: 4658094868879739933}
   - component: {fileID: 3389189816197488876}
-  - component: {fileID: 3807703786211456147}
+  - component: {fileID: 7162549675025268736}
   m_Layer: 9
   m_Name: UFO
   m_TagString: Untagged
@@ -96,8 +96,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8684694794553108833}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.09, y: -2.6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 6.1785, y: -2.5641, z: 0}
+  m_LocalScale: {x: 1.0812, y: 1.0544, z: 1}
   m_Children:
   - {fileID: 3807703786391402361}
   m_Father: {fileID: 0}
@@ -165,9 +165,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00635314, y: 0.02812624}
+  m_Offset: {x: 0.00635314, y: 0.05576825}
   serializedVersion: 2
-  m_Radius: 0.5881181
+  m_Radius: 0.6157601
 --- !u!114 &8684694794553108836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,7 +195,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 3807703786211456147}
+      - m_Target: {fileID: 3389189816197488876}
         m_MethodName: Die
         m_Mode: 1
         m_Arguments:
@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d011fcae4df32ba419eeccb05a55d9a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabToSpawn: {fileID: 1106911873459392647, guid: 3593a99b68a94f04b8eb70580f43e8ea,
+  prefabToSpawn: {fileID: 8878181590545229039, guid: fe49eea66ece9ce4dbff545bd0878b46,
     type: 3}
   adjustmentAngle: 0
 --- !u!114 &8480675486488022692
@@ -321,15 +321,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49fdac48f1c42ac4fa6687b7e94785ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3807703786211456147
-MonoBehaviour:
+--- !u!61 &7162549675025268736
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8684694794553108833}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49fdac48f1c42ac4fa6687b7e94785ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.051131725, y: -0.13894257}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.18, y: 1.32}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.0777364, y: 0.4653697}
+  m_EdgeRadius: 0

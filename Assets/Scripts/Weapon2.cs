@@ -15,7 +15,7 @@ public class Weapon2 : MonoBehaviour
     private void Fire()
     {
         isFiring = true;
-        //Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+        Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
 
         GameObject bullet = PoolManager.current.GetPooledObject("Bullet");
 
